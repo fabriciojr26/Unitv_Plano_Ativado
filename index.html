@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UniTV — Ativação</title>
+  <meta name="description" content="Entretenimento digital. PIX aprovado • Acesso em minutos • Suporte que resolve.">
+  <meta property="og:title" content="UniTV — Ativação">
+  <meta property="og:description" content="PIX aprovado • Acesso em minutos • Suporte que resolve.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="logo.png">
+
+  <style>
+    :root{
+      --bg:#0B0D12;--txt:#F5F7FA;--muted:#9AA3AF;--accent:#FFD100;--card:#121622;--border:#23283B;
+      --btn-grad1:#1F2A44;--btn-grad2:#2D3B66;--focus:#7C9EFF;
+    }
+    *{box-sizing:border-box} html,body{height:100%}
+    body{margin:0;background:var(--bg);color:var(--txt);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial,sans-serif;line-height:1.35}
+    .wrap{max-width:720px;margin:0 auto;padding:20px}
+    .top-proof{font-size:.85rem;color:var(--muted);display:flex;gap:.5rem;flex-wrap:wrap;align-items:center}
+    .top-proof .dot{width:.4rem;height:.4rem;background:var(--accent);border-radius:50%;display:inline-block;margin:0 .25rem}
+    h1{font-size:1.9rem;margin:12px 0 8px;display:flex;align-items:center;gap:.6rem}
+    .brand-logo{width:42px;height:auto;border-radius:8px}
+    .brand-text{font-weight:800;letter-spacing:.3px}
+    .warn{background:#201A00;border:1px solid #3A2A00;color:#FFD56A;padding:10px 14px;border-radius:12px;font-size:1rem;margin:10px 0 16px}
+    .plans{display:grid;gap:14px}
+    .plan-btn{
+      position:relative;display:flex;justify-content:space-between;align-items:center;
+      padding:22px 18px;border-radius:18px;border:1px solid var(--border);
+      background:linear-gradient(135deg,var(--btn-grad1),var(--btn-grad2));
+      box-shadow:0 10px 18px rgba(0,0,0,.28);cursor:pointer;outline:none;
+      color:var(--txt);min-height:104px;text-align:left;width:100%;font-size:inherit;font-family:inherit
+    }
+    .plan-btn::before{content:'';position:absolute;left:0;top:0;bottom:0;width:10px;background:var(--accent);border-radius:18px 0 0 18px}
+    .plan-btn .label{font-weight:900;font-size:1.2rem;letter-spacing:.2px}
+    .plan-btn .price{opacity:.95;font-weight:800;font-size:1.1rem}
+    .arrow{width:14px;height:14px;border-right:3px solid var(--txt);border-top:3px solid var(--txt);transform:rotate(45deg);margin-left:12px}
+    .disclaimer{font-size:.8rem;color:var(--muted);margin-top:10px}
+    .kick{animation:kick .65s ease-out 1 both}
+    @keyframes kick{0%{transform:scale(.96) translateY(6px);opacity:.0}60%{transform:scale(1.04) translateY(-3px);opacity:1}100%{transform:scale(1) translateY(0)}}
+    .sheet{position:fixed;left:0;right:0;bottom:-100%;background:var(--card);border-top-left-radius:18px;border-top-right-radius:18px;box-shadow:0 -12px 40px rgba(0,0,0,.5);transition:transform .28s ease,opacity .28s ease;transform:translateY(100%);opacity:0}
+    .sheet.open{transform:translateY(0);bottom:0;opacity:1}
+    .sheet-backdrop{position:fixed;inset:0;background:rgba(3,6,12,.55);opacity:0;transition:opacity .2s;pointer-events:none}
+    .sheet-backdrop.show{opacity:1;pointer-events:auto}
+    .sheet .handle{width:48px;height:5px;background:#2A2F45;border-radius:3px;margin:10px auto}
+    .sheet header{padding:4px 16px 8px}
+    .sheet h2{font-size:1.15rem;margin:0}
+    .sheet .content{padding:8px 16px 92px;max-height:62vh;overflow:auto}
+    .sheet .bullets{margin:8px 0 14px;padding-left:18px}
+    .sheet .bullets li{margin:6px 0}
+    .sheet .faq dt{font-weight:700;margin-top:10px}
+    .sheet .faq dd{margin:2px 0 8px;color:var(--muted)}
+    .sheet .cta-bar{position:fixed;left:0;right:0;bottom:0;background:linear-gradient(0deg, rgba(11,13,18,.98), rgba(11,13,18,.95));border-top:1px solid var(--border);padding:10px 12px;display:flex;gap:10px;z-index:10}
+    .btn{appearance:none;border:none;border-radius:12px;padding:12px 14px;font-weight:800;color:#0b0d12;cursor:pointer;flex:1}
+    .btn-primary{background:var(--accent)}
+    .btn-secondary{background:#2B324D;color:#E7ECF3}
+    .muted{color:var(--muted)}
+    @media (min-width:480px){ .plans{grid-template-columns:repeat(2,1fr)} .plan-btn{min-height:110px} }
+  </style>
+
+  <!-- Meta Pixel (seu pixel real) -->
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init','4248330435413136');
+    fbq('track','PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=4248330435413136&ev=PageView&noscript=1"/>
+  </noscript>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top-proof" aria-label="Provas de confiança">
+      <span>PIX aprovado</span><span class="dot"></span><span>Acesso em minutos</span><span class="dot"></span><span>Suporte que resolve</span>
+    </div>
+
+    <h1>
+      <img src="logo.png" alt="UniTV" class="brand-logo">
+      <span class="brand-text">UniTV</span>
+    </h1>
+
+    <div class="warn">⚠️ Atendimento exclusivo para ativação. Só prossiga se for contratar.</div>
+
+    <div class="plans" id="planList">
+      <button class="plan-btn kick" style="animation-delay:0s" data-plan="essencial" data-label="Essencial" data-price="R$10/mês" aria-haspopup="dialog" aria-controls="sheet-essencial">
+        <span class="label">Essencial</span><span class="price">R$10/mês</span><span class="arrow" aria-hidden="true"></span>
+      </button>
+      <button class="plan-btn kick" style="animation-delay:.12s" data-plan="combos" data-label="Combos" data-price="3, 6, 12 meses" aria-haspopup="dialog" aria-controls="sheet-combos">
+        <span class="label">Combos</span><span class="price">3, 6, 12 meses</span><span class="arrow" aria-hidden="true"></span>
+      </button>
+    </div>
+
+    <section aria-label="Aviso final" class="final-call" style="margin-top:18px;background:#141827;border:1px solid #23283B;border-radius:16px;padding:18px">
+      <p style="margin:0;font-size:1.25rem;font-weight:900">⚠️ Só clique se for contratar.</p>
+      <p style="margin:6px 0 0;font-size:1.15rem;font-weight:900">💳 PIX imediato: Essencial R$10 ou Combo.</p>
+      <p style="margin:6px 0 0;font-size:1.1rem;font-weight:900">❌ Não existe teste gratuito.<br>⚡ Após confirmação do PIX, a ativação do plano será imediata.</p>
+    </section>
+
+    <p class="disclaimer">Entretenimento digital. Sem marcas de terceiros.</p>
+  </div>
+
+  <div class="sheet-backdrop" id="sheetBackdrop" tabindex="-1"></div>
+
+  <!-- Sheet Essencial -->
+  <section class="sheet" id="sheet-essencial" role="dialog" aria-modal="true" aria-labelledby="title-essencial" aria-describedby="desc-essencial">
+    <div class="handle" aria-hidden="true"></div>
+    <header><h2 id="title-essencial">Plano Essencial — R$10/mês</h2><p id="desc-essencial" class="muted">Perfeito para começar.</p></header>
+    <div class="content">
+      <p class="muted">⚠️ Atendimento exclusivo para ativação. Só prossiga se realmente for contratar.</p>
+      <h3>1) O que você recebe</h3>
+      <ul class="bullets">
+        <li>Pacote 30.000+ conteúdos.</li>
+        <li>Experiência estável e multi-dispositivo.</li>
+        <li>Ativação rápida após confirmação do PIX.</li>
+      </ul>
+      <h3>2) Suporte que resolve</h3>
+      <ul class="bullets">
+        <li>Suporte ativo: se aparecer problema, a gente resolve.</li>
+        <li>Acompanhamento na ativação e ajustes quando necessário.</li>
+      </ul>
+      <h3>3) Pagamento e renovação</h3>
+      <ul class="bullets">
+        <li>R$10/mês, pagamento mensal e flexível.</li>
+        <li>Sem fidelidade — você controla sua renovação.</li>
+      </ul>
+      <h3>Requisitos para ativar</h3>
+      <ul class="bullets">
+        <li>Internet estável.</li>
+        <li>Dispositivos compatíveis: Smart TV, TV Box, Android, Projetor, Tablet, PC.</li>
+      </ul>
+      <h3>Como funciona (passo a passo)</h3>
+      <ol class="bullets">
+        <li>Toque em “Ativar no WhatsApp agora”.</li>
+        <li>Converse com o suporte para confirmar o plano.</li>
+        <li>Faça o PIX de R$10 e envie o comprovante.</li>
+        <li>Ativação em minutos após identificação do pagamento.</li>
+      </ol>
+      <p class="muted"><strong>Termo de ciência:</strong> ao tocar no botão WhatsApp, você declara estar ciente de que seguirá para contratação.</p>
+    </div>
+    <div class="cta-bar">
+      <button class="btn btn-secondary" data-action="doubt" data-plan="essencial">Tirar dúvida rápida</button>
+      <button class="btn btn-primary" data-action="activate" data-plan="essencial">Ativar no WhatsApp agora</button>
+    </div>
+  </section>
+
+  <!-- Sheet Combos -->
+  <section class="sheet" id="sheet-combos" role="dialog" aria-modal="true" aria-labelledby="title-combos" aria-describedby="desc-combos">
+    <div class="handle" aria-hidden="true"></div>
+    <header><h2 id="title-combos">Combos — 3, 6 e 12 meses</h2><p id="desc-combos" class="muted">Escolha o período e ative via PIX.</p></header>
+    <div class="content">
+      <p class="muted">⚠️ Atendimento exclusivo para ativação. Só prossiga se realmente for contratar.</p>
+      <h3>Combos disponíveis</h3>
+      <ul class="bullets">
+        <li>3 meses — R$25</li>
+        <li>6 meses — R$50</li>
+        <li>12 meses — R$75</li>
+      </ul>
+      <h3>O que você recebe</h3>
+      <ul class="bullets">
+        <li>Catálogo amplo e dinâmico.</li>
+        <li>Experiência estável e rápida ativação.</li>
+      </ul>
+      <h3>Pagamento e renovação</h3>
+      <ul class="bullets">
+        <li>Valor único do período escolhido.</li>
+        <li>Sem fidelidade.</li>
+      </ul>
+      <p class="muted"><strong>Termo de ciência:</strong> ao tocar no botão WhatsApp, você declara estar ciente de que seguirá para contratação do combo.</p>
+    </div>
+    <div class="cta-bar">
+      <button class="btn btn-secondary" data-action="doubt" data-plan="combos">Tirar dúvida rápida</button>
+      <button class="btn btn-primary" data-action="activate" data-plan="combos">Ativar combo no WhatsApp agora</button>
+    </div>
+  </section>
+
+  <!-- app.js — UX da página -->
+  <script>
+    (() => {
+      const PHONE_E164 = "5591982734406"; // WhatsApp
+      const PLAN_MESSAGES = {
+        essencial: "Quero ativar o Plano R$10/mês agora. PIX ok.",
+        combos: "Quero ativar um Combo (3/6/12 meses). PIX ok."
+      };
+
+      function getUTMs() {
+        const params = new URLSearchParams(window.location.search);
+        const keys = ["utm_source","utm_medium","utm_campaign"];
+        keys.forEach(k => { if (params.get(k)) sessionStorage.setItem(k, params.get(k)); });
+        const data = {}; keys.forEach(k => data[k] = sessionStorage.getItem(k) || "");
+        return data;
+      }
+
+      function utmSuffix() {
+        const u = getUTMs();
+        const parts = [];
+        if (u.utm_source) parts.push(`source=${u.utm_source}`);
+        if (u.utm_medium) parts.push(`medium=${u.utm_medium}`);
+        if (u.utm_campaign) parts.push(`campaign=${u.utm_campaign}`);
+        return parts.length ? ` utm: ${parts.join("|")}` : "";
+      }
+
+      function buildWaLink(plan) {
+        const base = `https://wa.me/${PHONE_E164}`;
+        const msgBase = PLAN_MESSAGES[plan] || "Quero ativar agora.";
+        const msg = `${msgBase}${utmSuffix()}`.trim();
+        return `${base}?text=${encodeURIComponent(msg)}`;
+      }
+
+      const backdrop = document.getElementById("sheetBackdrop");
+      let openSheet = null, startY = null;
+
+      function lockBody(lock){ document.documentElement.style.overflow = lock ? "hidden" : ""; document.body.style.overflow = lock ? "hidden" : ""; }
+      function openDialog(sheetEl, plan){
+        if (openSheet) closeDialog(openSheet);
+        openSheet = sheetEl;
+        sheetEl.classList.add("open");
+        backdrop.classList.add("show");
+        lockBody(true);
+        const focusEl = sheetEl.querySelector(".btn-primary") || sheetEl.querySelector("button");
+        if (focusEl) focusEl.focus();
+        if (typeof fbq === 'function') { try { fbq('trackCustom','ViewPlanSheet',{plan}); } catch(e){} }
+      }
+      function closeDialog(sheetEl){
+        sheetEl.classList.remove("open");
+        backdrop.classList.remove("show");
+        lockBody(false);
+        openSheet = null;
+      }
+
+      backdrop.addEventListener("click", () => { if (openSheet) closeDialog(openSheet); });
+      window.addEventListener("keydown", (e) => { if (e.key === "Escape" && openSheet) closeDialog(openSheet); });
+
+      document.querySelectorAll(".sheet").forEach(sheet => {
+        sheet.addEventListener("touchstart",(e)=>{ startY = e.touches[0].clientY; }, {passive:true});
+        sheet.addEventListener("touchmove",(e)=>{
+          if (startY===null) return;
+          const dy = e.touches[0].clientY - startY;
+          if (dy>40){ closeDialog(sheet); startY=null; }
+        }, {passive:true});
+      });
+
+      document.getElementById("planList").addEventListener("click",(e)=>{
+        const btn = e.target.closest(".plan-btn");
+        if (!btn) return;
+        const plan = btn.dataset.plan;
+        const targetId = btn.getAttribute("aria-controls");
+        const sheet = document.getElementById(targetId);
+        if (sheet){
+          if (typeof fbq==='function'){ try{ fbq('trackCustom','PlanSelected',{plan}); } catch(e){} }
+          openDialog(sheet, plan);
+        }
+      });
+
+      document.querySelectorAll(".sheet .cta-bar").forEach(bar=>{
+        bar.addEventListener("click",(e)=>{
+          const btn = e.target.closest("button[data-action]");
+          if (!btn) return;
+          const plan = btn.dataset.plan;
+          const url = buildWaLink(plan);
+          // O hook CAPI (abaixo) intercepta o clique em capture e envia antes da navegação
+          window.location.href = url;
+        });
+      });
+
+      window.addEventListener("load", () => {
+        getUTMs();
+        document.querySelectorAll(".kick").forEach(el => { setTimeout(() => el.classList.remove("kick"), 900); });
+      });
+    })();
+  </script>
+
+  <!-- capi-hook.js — Envio CAPI via backend (Koyeb) -->
+  <script>
+    (function () {
+      // URL do backend (endpoint completo com /api/capi)
+      const BACKEND_URL = "https://intimate-lacee-fabriciojunior-55ca92a4.koyeb.app//api/capi";
+
+      function uuidv4(){
+        if (crypto && typeof crypto.randomUUID === "function") return crypto.randomUUID();
+        return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function (c) {
+          const r = (Math.random()*16)|0, v = c==="x"? r : (r&0x3)|0x8; return v.toString(16);
+        });
+      }
+      function getCookie(name){
+        const m = document.cookie.match(new RegExp("(^| )"+name+"=([^;]+)")); return m ? decodeURIComponent(m[2]) : null;
+      }
+      function getUTMs(){
+        const keys = ["utm_source","utm_medium","utm_campaign"]; const u = {};
+        keys.forEach(k=>{ const v = sessionStorage.getItem(k); if (v) u[k]=v; });
+        const parts=[]; if(u.utm_source) parts.push("source="+u.utm_source);
+        if(u.utm_medium) parts.push("medium="+u.utm_medium);
+        if(u.utm_campaign) parts.push("campaign="+u.utm_campaign);
+        return parts.length ? "utm: "+parts.join("|") : "";
+      }
+      function sendCapi(payload){
+        fetch(BACKEND_URL, {
+          method:"POST",
+          headers:{ "Content-Type":"application/json" },
+          body: JSON.stringify(payload),
+          keepalive:true
+        }).catch(err=>console.error("Erro ao enviar evento CAPI:", err));
+      }
+
+      // Intercepta cliques nos botões das sheets ANTES da navegação (capture: true)
+      document.addEventListener("click", function(e){
+        const btn = e.target.closest("button[data-action][data-plan]");
+        if (!btn) return;
+        const plan = btn.getAttribute("data-plan");
+        const action = btn.getAttribute("data-action");
+        const eventID = uuidv4();
+
+        // Pixel no navegador com event_id (deduplicação com CAPI)
+        if (typeof fbq === 'function'){
+          try{
+            fbq('trackCustom','WhatsAppClick',{plan,action},{eventID});
+            fbq('track','Contact',{}, {eventID: eventID+'_contact'});
+          }catch(err){ console.error("fbq error:", err); }
+        }
+
+        // CAPI server-side
+        const fbclid = new URLSearchParams(location.search).get("fbclid");
+        sendCapi({
+          event_name: "WhatsAppClick",
+          event_id: eventID,
+          plan, action,
+          utm: getUTMs(),
+          fbp: getCookie("_fbp"),
+          fbc: getCookie("_fbc"),
+          fbclid
+        });
+      }, true);
+    })();
+  </script>
+</body>
+</html>
